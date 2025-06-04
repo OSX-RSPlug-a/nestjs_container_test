@@ -3,11 +3,15 @@ This proejct has the focus on test the nestjs env on a docker structure;
 
 Starting the project with docker:
 
-      docker build -t node-nestjsapp:release-v1 .
+      docker build -t node-nestjsapp:version1.0 .
+
+      docker ps
+
+      docker tag <container-id> node-nestjsapp:version1.0
 
       docker image ls
 
-      docker run -d node-nestjsapp:release-v1
+      docker run -d node-nestjsapp:version1.0
 
       docker ps
 

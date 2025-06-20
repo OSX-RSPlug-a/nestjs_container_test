@@ -13,7 +13,6 @@ Starting the project with docker:
 
       docker run -d node-nestjsapp:version1.0
 
-      docker ps
 
 See running in the browser:
 
